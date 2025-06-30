@@ -1,0 +1,12 @@
+{
+  "name": "MJ14",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "Folder",
+      "src": {
+        "$path": "src"
+      }
+    }
+  }
+}
