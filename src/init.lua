@@ -7,7 +7,7 @@ local Camera = game:GetService("Workspace").CurrentCamera
 local Mouse = LocalPlayer:GetMouse()
 
 local Root = game:GetService("ReplicatedStorage"):WaitForChild("src")
-local Creator = require(Root.Creator)
+local Creator = require(Root:WaitForChild("Creator"))
 local ElementsTable = require(Root.Elements)
 local Acrylic = require(Root.Acrylic)
 local Components = Root.Components
